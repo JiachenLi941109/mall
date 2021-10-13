@@ -36,4 +36,5 @@ build/
 .gitignore
 
 ### Maven ###
-mvnw*
+mvnw
+mvnw.cmd
