@@ -3,6 +3,7 @@ package com.jiachen.mall.dao;
 import com.jiachen.mall.mbg.model.UmsPermission;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  * Created by macro on 2018/10/8.
  */
 @Mapper
+@Repository
 public interface UmsAdminRoleRelationDao {
 
     /**
